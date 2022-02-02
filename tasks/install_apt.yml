@@ -5,3 +5,4 @@
     deb: "/tmp/kibana-{{ kibana_version }}-amd64.deb"
     state: present
   notify: restart Kibana
+

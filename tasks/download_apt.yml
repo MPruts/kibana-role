@@ -12,3 +12,4 @@
     src: "files/kibana-{{ kibana_version }}-amd64.deb"
     mode: 0755
     dest: "/tmp/kibana-{{ kibana_version }}-amd64.deb"
+
