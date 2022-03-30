@@ -1,7 +1,7 @@
 ---
 - name: "Download Kibana's rpm"
   get_url:
-    url: "http://92.242.3.154:33380/download//kibana/kibana-{{ kibana_version }}-x86_64.rpm"
+    url: "http://92.242.3.154:33380/download//kibana-{{ kibana_version }}-x86_64.rpm"
     dest: "files/kibana-{{ kibana_version }}-x86_64.rpm"
   register: download_kibana
   delegate_to: localhost
